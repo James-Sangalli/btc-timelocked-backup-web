@@ -4,8 +4,7 @@ import * as ics from "ics-browser-gen";
 
 export class Helper {
 
-    constructor(userAddress, recipient, date, localhost) {
-        this.userAddress = userAddress;
+    constructor(recipient, date, localhost) {
         this.recipient = recipient;
         this.date = date;
         this.privateKey = "The recipient's private key is stored elsewhere."
